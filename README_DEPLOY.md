@@ -65,3 +65,13 @@ python3 scripts/check_site.py --root docs --asset-version 2026-06-27-commit6
 ```
 
 This checks that generated pages include skip-link accessibility hooks, cache-busted CSS/JS references, required assets, and resolvable internal links.
+
+## Final predeployment gate
+
+Run the complete gate before publishing:
+
+```sh
+bash scripts/predeploy_check.sh
+```
+
+Record the result in `audit/SITE_PREDEPLOYMENT_REPORT.md` and review any warnings before changing GitHub Pages settings or announcing the release.

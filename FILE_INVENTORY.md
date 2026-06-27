@@ -39,3 +39,5 @@
 - `serverless/translate-proxy/README.md`
 - `serverless/translate-proxy/worker.js`
 - `scripts/check_site.py`
+- `scripts/predeploy_check.sh`
+- `audit/SITE_PREDEPLOYMENT_REPORT.md`
