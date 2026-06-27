@@ -27,3 +27,15 @@
 - `package/03_PROMPT_ASSETS_COMPACT.md`
 - `package/04_UNIFIED_RESPONSE_TEMPLATE.md`
 - `package/05_VALIDATION_PROMPTS.md`
+- `scripts/build_site.py`
+- `site/site_manifest.json`
+- `site/templates/page.html`
+- `source/quartz-content-vault/commercial/commercial-use.md`
+- `source/quartz-content-vault/package/download.md`
+- `source/quartz-content-vault/package/license.md`
+- `source/quartz-content-vault/package/security.md`
+- `docs/assets/i18n.ar.json`
+- `site/i18n/ar.json`
+- `serverless/translate-proxy/README.md`
+- `serverless/translate-proxy/worker.js`
+- `scripts/check_site.py`
