@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_description }}" />
+  <meta property="og:title" content="{{ og_title }}" />
+  <meta property="og:description" content="{{ page_description }}" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#cf2e2e" />
+  <link rel="stylesheet" href="{{ root_prefix }}assets/site.css" />
+  <link rel="icon" href="{{ root_prefix }}assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body id="top" data-page="{{ page_slug }}">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="topbar">
+    <a class="brand" href="{{ root_prefix }}"><span class="brand-mark"></span><span>{{ site_title }}<br><small>Scenario Companion {{ version }}</small></span></a>
+    <nav class="topnav" aria-label="Primary navigation">{{ primary_nav }}</nav>
+  </header>
+  <div class="site-shell">
+    <aside class="left-panel" aria-label="Scenario navigation">
+      <div class="search-box"><label for="site-search">Search scenarios and method</label><input id="site-search" type="search" placeholder="Search..." autocomplete="off"><div id="search-results"></div></div>
+      {{ left_panel }}
+    </aside>
+    <main id="main-content" class="content" tabindex="-1">
+      {{ content }}
+    </main>
+    <aside class="right-panel" aria-label="Page graph and related notes">
+      {{ right_panel }}
+    </aside>
+  </div>
+  <footer class="footer">
+    <p>{{ footer }}</p>
+  </footer>
+  <script>window.SITE_ROOT_PREFIX = "{{ root_prefix }}";
+  window.SITE_INDEX_PATH = "{{ root_prefix }}assets/search-index.json";</script>
+  <script src="{{ root_prefix }}assets/site.js"></script>
+</body>
+</html>
