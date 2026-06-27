@@ -16,6 +16,21 @@
   <header class="topbar">
     <a class="brand" href="{{ root_prefix }}"><span class="brand-mark"></span><span>{{ site_title }}<br><small>Scenario Companion {{ version }}</small></span></a>
     <nav class="topnav" aria-label="Primary navigation">{{ primary_nav }}</nav>
+    <div class="topbar-actions" aria-label="Display and language controls">
+      <div class="language-switcher">
+        <label for="language-select">Language</label>
+        <select id="language-select" autocomplete="off">
+          <option value="en">English</option>
+          <option value="ar">العربية</option>
+        </select>
+        <button type="button" class="machine-translate-button" data-machine-translate="ar" aria-pressed="false">Machine translate</button>
+      </div>
+      <div class="theme-switcher" role="group" aria-label="Theme preference">
+        <button type="button" class="theme-option" data-theme-option="system">System</button>
+        <button type="button" class="theme-option" data-theme-option="light">Light</button>
+        <button type="button" class="theme-option" data-theme-option="dark">Dark</button>
+      </div>
+    </div>
   </header>
   <div class="site-shell">
     <aside class="left-panel" aria-label="Scenario navigation">

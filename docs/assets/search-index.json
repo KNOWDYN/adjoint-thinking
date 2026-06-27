@@ -1,422 +1,387 @@
 [
   {
-    "slug": "index",
+    "title": "Claim–Source–Boundary Table",
+    "desc": "",
+    "url": "./artefacts/claim-source-boundary-table/",
+    "section": "Artefacts",
+    "tags": [
+      "artefact"
+    ]
+  },
+  {
+    "title": "Living Dossier",
+    "desc": "",
+    "url": "./artefacts/living-dossier/",
+    "section": "Artefacts",
+    "tags": [
+      "artefact"
+    ]
+  },
+  {
+    "title": "Pressure Ledger",
+    "desc": "",
+    "url": "./artefacts/pressure-ledger/",
+    "section": "Artefacts",
+    "tags": [
+      "artefact"
+    ]
+  },
+  {
+    "title": "Reasoning Path Ledger",
+    "desc": "",
+    "url": "./artefacts/reasoning-path-ledger-artefact/",
+    "section": "Artefacts",
+    "tags": [
+      "artefact"
+    ]
+  },
+  {
+    "title": "Synthesis Wall",
+    "desc": "",
+    "url": "./artefacts/synthesis-wall-artefact/",
+    "section": "Artefacts",
+    "tags": [
+      "artefact"
+    ]
+  },
+  {
+    "title": "Transformation Log",
+    "desc": "",
+    "url": "./artefacts/transformation-log/",
+    "section": "Artefacts",
+    "tags": [
+      "artefact"
+    ]
+  },
+  {
+    "title": "Commercial Use and Licensing",
+    "desc": "Commercial asset production, paid assistants, client work, internal business assets, courses, and marketplace products require a commercial license from KNOWDYN.",
+    "url": "./commercial/commercial-use/",
+    "section": "Commercial",
+    "tags": [
+      "commercial",
+      "license"
+    ]
+  },
+  {
+    "title": "Dangerous Zone",
+    "desc": "",
+    "url": "./concepts/dangerous-zone/",
+    "section": "Concepts",
+    "tags": [
+      "concept"
+    ]
+  },
+  {
+    "title": "Human Verdict",
+    "desc": "",
+    "url": "./concepts/human-verdict/",
+    "section": "Concepts",
+    "tags": [
+      "concept"
+    ]
+  },
+  {
+    "title": "Machine as Cognitive Environment",
+    "desc": "",
+    "url": "./concepts/machine-as-cognitive-environment/",
+    "section": "Concepts",
+    "tags": [
+      "concept"
+    ]
+  },
+  {
+    "title": "Orientation, Working, Publication",
+    "desc": "",
+    "url": "./concepts/orientation-working-publication/",
+    "section": "Concepts",
+    "tags": [
+      "concept"
+    ]
+  },
+  {
+    "title": "Receipt Before Release",
+    "desc": "",
+    "url": "./concepts/receipt-before-release/",
+    "section": "Concepts",
+    "tags": [
+      "concept"
+    ]
+  },
+  {
+    "title": "Source Is Not the Citation",
+    "desc": "",
+    "url": "./concepts/source-is-not-the-citation/",
+    "section": "Concepts",
+    "tags": [
+      "concept"
+    ]
+  },
+  {
     "title": "Start Here",
     "desc": "Build an AI thinking environment for your work category.",
-    "section": "home",
+    "url": "./",
+    "section": "Home",
     "tags": [
-      "home"
-    ],
-    "url": "./"
+      "home",
+      "scenario-companion"
+    ]
   },
   {
-    "slug": "scenarios",
-    "title": "Scenario Index",
-    "desc": "Choose a scenario by audience category, work burden, operation, and native artefact.",
-    "section": "scenarios",
+    "title": "Install in ChatGPT Projects",
+    "desc": "",
+    "url": "./install/chatgpt-project-installation/",
+    "section": "Install",
     "tags": [
-      "scenarios"
-    ],
-    "url": "scenarios/scenarios/"
+      "install"
+    ]
   },
   {
-    "slug": "ai-literature-summary-verification-for-researchers",
-    "title": "AI Literature Summary Verification for Researchers",
-    "desc": "Use an Adjoint Thinking environment to check AI-assisted literature summaries before they enter a paper, review, lecture, or research note.",
-    "section": "scenarios",
+    "title": "Install in Claude Projects",
+    "desc": "",
+    "url": "./install/claude-project-installation/",
+    "section": "Install",
     "tags": [
-      "researcher",
-      "verification",
-      "literature-review"
-    ],
-    "url": "scenarios/ai-literature-summary-verification-for-researchers/"
+      "install"
+    ]
   },
   {
-    "slug": "ai-pitch-deck-claim-verification-for-founders",
-    "title": "AI Pitch Deck Claim Verification for Founders",
-    "desc": "Check AI-assisted market claims before they appear in a pitch deck, investor memo, or fundraising email.",
-    "section": "scenarios",
+    "title": "Install in Gemini Gems",
+    "desc": "",
+    "url": "./install/gemini-gem-installation/",
+    "section": "Install",
     "tags": [
-      "founder",
-      "pitch-deck",
-      "verification"
-    ],
-    "url": "scenarios/ai-pitch-deck-claim-verification-for-founders/"
+      "install"
+    ]
   },
   {
-    "slug": "ai-startup-screening-workflow-for-angel-investors",
-    "title": "AI Startup Screening Workflow for Angel Investors",
-    "desc": "Use AI to screen a startup pitch without accepting the model’s verdict about the company.",
-    "section": "scenarios",
+    "title": "Cognitive Jurisdiction Map",
+    "desc": "",
+    "url": "./operations/cognitive-jurisdiction-map/",
+    "section": "Operations",
     "tags": [
-      "angel-investor",
-      "startup-screening",
-      "reasoning"
-    ],
-    "url": "scenarios/ai-startup-screening-workflow-for-angel-investors/"
+      "operation"
+    ]
   },
   {
-    "slug": "ai-fiction-cowriting-without-losing-original-voice",
-    "title": "AI Fiction Co-Writing Without Losing Original Voice",
-    "desc": "Generate fictional alternatives without letting the model average away voice, taste, or the story’s original pressure.",
-    "section": "scenarios",
+    "title": "Controlled Divergence Chamber",
+    "desc": "",
+    "url": "./operations/controlled-divergence-chamber/",
+    "section": "Operations",
     "tags": [
-      "writer",
-      "fiction",
-      "divergence"
-    ],
-    "url": "scenarios/ai-fiction-cowriting-without-losing-original-voice/"
+      "operation"
+    ]
   },
   {
-    "slug": "ai-source-grounded-lecture-builder-for-educators",
-    "title": "AI Source-Grounded Lecture Builder for Educators",
-    "desc": "Turn source material into a lecture without allowing AI to replace evidence, structure, or teaching judgment.",
-    "section": "scenarios",
+    "title": "First Contact Pressure Ledger",
+    "desc": "",
+    "url": "./operations/first-contact-pressure-ledger/",
+    "section": "Operations",
     "tags": [
-      "educator",
-      "lecture",
-      "synthesis"
-    ],
-    "url": "scenarios/ai-source-grounded-lecture-builder-for-educators/"
+      "operation"
+    ]
   },
   {
-    "slug": "ai-client-memo-verification-for-consultants",
+    "title": "Invention Forge Transformation Log",
+    "desc": "",
+    "url": "./operations/invention-forge-transformation-log/",
+    "section": "Operations",
+    "tags": [
+      "operation"
+    ]
+  },
+  {
+    "title": "Living Dossier Provenance Audit",
+    "desc": "",
+    "url": "./operations/living-dossier-provenance-audit/",
+    "section": "Operations",
+    "tags": [
+      "operation"
+    ]
+  },
+  {
+    "title": "Reasoning Path Ledger",
+    "desc": "",
+    "url": "./operations/reasoning-path-ledger/",
+    "section": "Operations",
+    "tags": [
+      "operation"
+    ]
+  },
+  {
+    "title": "Sovereignty Receipt",
+    "desc": "",
+    "url": "./operations/sovereignty-receipt/",
+    "section": "Operations",
+    "tags": [
+      "operation"
+    ]
+  },
+  {
+    "title": "Synthesis Wall",
+    "desc": "",
+    "url": "./operations/synthesis-wall/",
+    "section": "Operations",
+    "tags": [
+      "operation"
+    ]
+  },
+  {
+    "title": "Verification Receipt",
+    "desc": "",
+    "url": "./operations/verification-receipt/",
+    "section": "Operations",
+    "tags": [
+      "operation"
+    ]
+  },
+  {
+    "title": "Download Environment Pack v1.0.0",
+    "desc": "Download the locked environment pack used by this Scenario Companion site.",
+    "url": "./package/download/",
+    "section": "Package",
+    "tags": [
+      "download",
+      "package"
+    ]
+  },
+  {
+    "title": "License Summary",
+    "desc": "Personal, self-learning, and academic research use are permitted. Commercial asset production requires a KNOWDYN license.",
+    "url": "./package/license/",
+    "section": "Package",
+    "tags": [
+      "license",
+      "commercial"
+    ]
+  },
+  {
+    "title": "Security and Privacy Notes",
+    "desc": "Prompt packs are not secure data-processing systems. Do not upload secrets or regulated data without understanding platform controls.",
+    "url": "./package/security/",
+    "section": "Package",
+    "tags": [
+      "security",
+      "privacy"
+    ]
+  },
+  {
     "title": "AI Client Memo Verification for Consultants",
     "desc": "Check an AI-assisted client memo before it becomes professional advice, analysis, or recommendation.",
-    "section": "scenarios",
+    "url": "./scenarios/ai-client-memo-verification-for-consultants/",
+    "section": "Scenarios",
     "tags": [
       "consultant",
       "client-memo",
       "verification"
-    ],
-    "url": "scenarios/ai-client-memo-verification-for-consultants/"
+    ]
   },
   {
-    "slug": "ai-design-review-reasoning-workflow-for-engineers",
-    "title": "AI Design Review Reasoning Workflow for Engineers",
-    "desc": "Use AI to inspect a design-review argument without allowing generated reasoning to certify technical safety.",
-    "section": "scenarios",
-    "tags": [
-      "engineer",
-      "design-review",
-      "reasoning"
-    ],
-    "url": "scenarios/ai-design-review-reasoning-workflow-for-engineers/"
-  },
-  {
-    "slug": "ai-decision-memo-synthesis-for-analysts",
-    "title": "AI Decision Memo Synthesis for Analysts",
-    "desc": "Build a decision memo from mixed evidence without smoothing uncertainty into false confidence.",
-    "section": "scenarios",
-    "tags": [
-      "analyst",
-      "decision-memo",
-      "synthesis"
-    ],
-    "url": "scenarios/ai-decision-memo-synthesis-for-analysts/"
-  },
-  {
-    "slug": "ai-learning-without-outsourcing-understanding-for-students",
-    "title": "AI Learning Without Outsourcing Understanding for Students",
-    "desc": "Use AI as a learning aid while preserving first contact, effort, and human understanding.",
-    "section": "scenarios",
-    "tags": [
-      "student",
-      "learning",
-      "first-contact"
-    ],
-    "url": "scenarios/ai-learning-without-outsourcing-understanding-for-students/"
-  },
-  {
-    "slug": "ai-controlled-divergence-for-artists-and-creators",
     "title": "AI Controlled Divergence for Artists and Creators",
     "desc": "Use AI to generate visual or conceptual possibilities without surrendering taste, pressure, or authorship.",
-    "section": "scenarios",
+    "url": "./scenarios/ai-controlled-divergence-for-artists-and-creators/",
+    "section": "Scenarios",
     "tags": [
       "artist",
       "creator",
       "divergence"
-    ],
-    "url": "scenarios/ai-controlled-divergence-for-artists-and-creators/"
+    ]
   },
   {
-    "slug": "first-contact-pressure-ledger",
-    "title": "First Contact Pressure Ledger",
-    "desc": "Protects the first human encounter with the work before AI frames it.",
-    "section": "operations",
+    "title": "AI Decision Memo Synthesis for Analysts",
+    "desc": "Build a decision memo from mixed evidence without smoothing uncertainty into false confidence.",
+    "url": "./scenarios/ai-decision-memo-synthesis-for-analysts/",
+    "section": "Scenarios",
     "tags": [
-      "operation"
-    ],
-    "url": "operations/first-contact-pressure-ledger/"
+      "analyst",
+      "decision-memo",
+      "synthesis"
+    ]
   },
   {
-    "slug": "cognitive-jurisdiction-map",
-    "title": "Cognitive Jurisdiction Map",
-    "desc": "Separates what stays human, what may be shared with AI, and what is dangerous without verification.",
-    "section": "operations",
+    "title": "AI Design Review Reasoning Workflow for Engineers",
+    "desc": "Use AI to inspect a design-review argument without allowing generated reasoning to certify technical safety.",
+    "url": "./scenarios/ai-design-review-reasoning-workflow-for-engineers/",
+    "section": "Scenarios",
     "tags": [
-      "operation"
-    ],
-    "url": "operations/cognitive-jurisdiction-map/"
+      "engineer",
+      "design-review",
+      "reasoning"
+    ]
   },
   {
-    "slug": "living-dossier-provenance-audit",
-    "title": "Living Dossier Provenance Audit",
-    "desc": "Keeps sources, claims, summaries, machine syntheses, and human judgments traceable.",
-    "section": "operations",
+    "title": "AI Fiction Co-Writing Without Losing Original Voice",
+    "desc": "Generate fictional alternatives without letting the model average away voice, taste, or the story’s original pressure.",
+    "url": "./scenarios/ai-fiction-cowriting-without-losing-original-voice/",
+    "section": "Scenarios",
     "tags": [
-      "operation"
-    ],
-    "url": "operations/living-dossier-provenance-audit/"
+      "writer",
+      "fiction",
+      "divergence"
+    ]
   },
   {
-    "slug": "reasoning-path-ledger",
-    "title": "Reasoning Path Ledger",
-    "desc": "Borrows reasoning paths without accepting the model’s verdict.",
-    "section": "operations",
+    "title": "AI Learning Without Outsourcing Understanding for Students",
+    "desc": "Use AI as a learning aid while preserving first contact, effort, and human understanding.",
+    "url": "./scenarios/ai-learning-without-outsourcing-understanding-for-students/",
+    "section": "Scenarios",
     "tags": [
-      "operation"
-    ],
-    "url": "operations/reasoning-path-ledger/"
+      "student",
+      "learning",
+      "first-contact"
+    ]
   },
   {
-    "slug": "controlled-divergence-chamber",
-    "title": "Controlled Divergence Chamber",
-    "desc": "Generates possibilities while keeping them provisional until tested by craft, evidence, or judgment.",
-    "section": "operations",
+    "title": "AI Literature Summary Verification for Researchers",
+    "desc": "Use an Adjoint Thinking environment to check AI-assisted literature summaries before they enter a paper, review, lecture, or research note.",
+    "url": "./scenarios/ai-literature-summary-verification-for-researchers/",
+    "section": "Scenarios",
     "tags": [
-      "operation"
-    ],
-    "url": "operations/controlled-divergence-chamber/"
+      "researcher",
+      "verification",
+      "literature-review"
+    ]
   },
   {
-    "slug": "verification-receipt",
-    "title": "Verification Receipt",
-    "desc": "Checks AI-assisted claims before they leave the private workspace.",
-    "section": "operations",
+    "title": "AI Pitch Deck Claim Verification for Founders",
+    "desc": "Check AI-assisted market claims before they appear in a pitch deck, investor memo, or fundraising email.",
+    "url": "./scenarios/ai-pitch-deck-claim-verification-for-founders/",
+    "section": "Scenarios",
     "tags": [
-      "operation"
-    ],
-    "url": "operations/verification-receipt/"
+      "founder",
+      "pitch-deck",
+      "verification"
+    ]
   },
   {
-    "slug": "synthesis-wall",
-    "title": "Synthesis Wall",
-    "desc": "Places fragments into a defensible structure without letting the machine’s outline decide meaning.",
-    "section": "operations",
+    "title": "AI Source-Grounded Lecture Builder for Educators",
+    "desc": "Turn source material into a lecture without allowing AI to replace evidence, structure, or teaching judgment.",
+    "url": "./scenarios/ai-source-grounded-lecture-builder-for-educators/",
+    "section": "Scenarios",
     "tags": [
-      "operation"
-    ],
-    "url": "operations/synthesis-wall/"
+      "educator",
+      "lecture",
+      "synthesis"
+    ]
   },
   {
-    "slug": "invention-forge-transformation-log",
-    "title": "Invention Forge Transformation Log",
-    "desc": "Turns outputs into original work through constraint, test, revision, and responsibility.",
-    "section": "operations",
+    "title": "AI Startup Screening Workflow for Angel Investors",
+    "desc": "Use AI to screen a startup pitch without accepting the model’s verdict about the company.",
+    "url": "./scenarios/ai-startup-screening-workflow-for-angel-investors/",
+    "section": "Scenarios",
     "tags": [
-      "operation"
-    ],
-    "url": "operations/invention-forge-transformation-log/"
+      "angel-investor",
+      "startup-screening",
+      "reasoning"
+    ]
   },
   {
-    "slug": "sovereignty-receipt",
-    "title": "Sovereignty Receipt",
-    "desc": "Records what the machine may support and what the human must still decide.",
-    "section": "operations",
+    "title": "Scenarios",
+    "desc": "Choose the work category closest to your use case.",
+    "url": "./scenarios/scenarios/",
+    "section": "Scenarios",
     "tags": [
-      "operation"
-    ],
-    "url": "operations/sovereignty-receipt/"
-  },
-  {
-    "slug": "pressure-ledger",
-    "title": "Pressure Ledger",
-    "desc": "A record of the first human mark: the question, doubt, sketch, pressure, or discomfort that must exist before AI assistance.",
-    "section": "artefacts",
-    "tags": [
-      "artefact"
-    ],
-    "url": "artefacts/pressure-ledger/"
-  },
-  {
-    "slug": "claim-source-boundary-table",
-    "title": "Claim–Source–Boundary Table",
-    "desc": "A compact verification artefact that separates a claim, the source path, the exact support, the boundary, and the trust label.",
-    "section": "artefacts",
-    "tags": [
-      "artefact"
-    ],
-    "url": "artefacts/claim-source-boundary-table/"
-  },
-  {
-    "slug": "reasoning-path-ledger-artefact",
-    "title": "Reasoning Path Ledger",
-    "desc": "A ledger for borrowing causal, formal, analogical, adversarial, or experimental paths without adopting the verdict.",
-    "section": "artefacts",
-    "tags": [
-      "artefact"
-    ],
-    "url": "artefacts/reasoning-path-ledger-artefact/"
-  },
-  {
-    "slug": "living-dossier",
-    "title": "Living Dossier",
-    "desc": "A traceable project memory that preserves source claims, boundaries, contradictions, machine syntheses, and human judgments.",
-    "section": "artefacts",
-    "tags": [
-      "artefact"
-    ],
-    "url": "artefacts/living-dossier/"
-  },
-  {
-    "slug": "synthesis-wall-artefact",
-    "title": "Synthesis Wall",
-    "desc": "A structured wall that places fragments by material type, trust status, and function in the work.",
-    "section": "artefacts",
-    "tags": [
-      "artefact"
-    ],
-    "url": "artefacts/synthesis-wall-artefact/"
-  },
-  {
-    "slug": "transformation-log",
-    "title": "Transformation Log",
-    "desc": "A record of how a candidate output changed under pressure, constraint, test, and responsibility.",
-    "section": "artefacts",
-    "tags": [
-      "artefact"
-    ],
-    "url": "artefacts/transformation-log/"
-  },
-  {
-    "slug": "receipt-before-release",
-    "title": "Receipt Before Release",
-    "desc": "The operating habit that no AI-assisted output should leave the private workspace until its trust status is known.",
-    "section": "concepts",
-    "tags": [
-      "concept"
-    ],
-    "url": "concepts/receipt-before-release/"
-  },
-  {
-    "slug": "source-is-not-the-citation",
-    "title": "Source Is Not the Citation",
-    "desc": "A citation exists only as decoration unless the source supports the exact claim, strength, and boundary used.",
-    "section": "concepts",
-    "tags": [
-      "concept"
-    ],
-    "url": "concepts/source-is-not-the-citation/"
-  },
-  {
-    "slug": "orientation-working-publication",
-    "title": "Orientation, Working, Publication",
-    "desc": "Three trust levels that prevent private orientation material from being mistaken for public-ready evidence.",
-    "section": "concepts",
-    "tags": [
-      "concept"
-    ],
-    "url": "concepts/orientation-working-publication/"
-  },
-  {
-    "slug": "dangerous-zone",
-    "title": "Dangerous Zone",
-    "desc": "The class of tasks where fluent output may look shareable but requires verification, expert review, or reality contact before use.",
-    "section": "concepts",
-    "tags": [
-      "concept"
-    ],
-    "url": "concepts/dangerous-zone/"
-  },
-  {
-    "slug": "human-verdict",
-    "title": "Human Verdict",
-    "desc": "The non-delegable decision to keep, narrow, cut, publish, sign, teach, release, or refuse.",
-    "section": "concepts",
-    "tags": [
-      "concept"
-    ],
-    "url": "concepts/human-verdict/"
-  },
-  {
-    "slug": "machine-as-cognitive-environment",
-    "title": "Machine as Cognitive Environment",
-    "desc": "The idea that a language model changes the conditions of attention, memory, reasoning, imagination, verification, and authorship.",
-    "section": "concepts",
-    "tags": [
-      "concept"
-    ],
-    "url": "concepts/machine-as-cognitive-environment/"
-  },
-  {
-    "slug": "chatgpt-project-installation",
-    "title": "Install in ChatGPT Projects",
-    "desc": "Browser-only setup guide for ChatGPT Projects.",
-    "section": "install",
-    "tags": [
-      "install"
-    ],
-    "url": "install/chatgpt-project-installation/"
-  },
-  {
-    "slug": "claude-project-installation",
-    "title": "Install in Claude Projects",
-    "desc": "Browser-only setup guide for Claude Projects.",
-    "section": "install",
-    "tags": [
-      "install"
-    ],
-    "url": "install/claude-project-installation/"
-  },
-  {
-    "slug": "gemini-gem-installation",
-    "title": "Install in Gemini Gems",
-    "desc": "Browser-only setup guide for Gemini Gems.",
-    "section": "install",
-    "tags": [
-      "install"
-    ],
-    "url": "install/gemini-gem-installation/"
-  },
-  {
-    "slug": "download",
-    "title": "Download Environment Pack v1.0.0",
-    "desc": "Download the locked Adjoint Thinking Environment Pack v1.0.0 and checksum.",
-    "section": "package",
-    "tags": [
-      "package"
-    ],
-    "url": "package/download/"
-  },
-  {
-    "slug": "license",
-    "title": "License Summary",
-    "desc": "Personal, self-learning, and academic research use are permitted. Commercial asset production requires a KNOWDYN license.",
-    "section": "package",
-    "tags": [
-      "package"
-    ],
-    "url": "package/license/"
-  },
-  {
-    "slug": "security",
-    "title": "Security and Privacy Notes",
-    "desc": "Prompt packs are not secure data-processing systems. Do not upload secrets or regulated data without understanding platform controls.",
-    "section": "package",
-    "tags": [
-      "package"
-    ],
-    "url": "package/security/"
-  },
-  {
-    "slug": "commercial-use",
-    "title": "Commercial Use and Licensing",
-    "desc": "Commercial asset production, paid assistants, client work, internal business assets, courses, and marketplace products require a commercial license from KNOWDYN.",
-    "section": "commercial",
-    "tags": [
-      "commercial"
-    ],
-    "url": "commercial/commercial-use/"
+      "scenarios"
+    ]
   }
 ]
