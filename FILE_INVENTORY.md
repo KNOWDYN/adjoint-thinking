@@ -1,0 +1,29 @@
+# File Inventory
+
+- `CHANGELOG.md`
+- `LICENSE.md`
+- `README.md`
+- `SECURITY.md`
+- `SOURCE_MANIFEST.md`
+- `audit/IMPLEMENTATION_NOTES.md`
+- `audit/KBC_MAP.md`
+- `audit/METHOD_EXTRACTION.md`
+- `audit/REASONING_MODEL_COMPATIBILITY.md`
+- `audit/REJECTED_ASSETS.md`
+- `audit/RELEASE_GATE_REPORT.md`
+- `audit/STRESS_TEST_REPORT.md`
+- `expanded_prompts/00_META_environment_ontology_configurator.md`
+- `expanded_prompts/01_first_contact_pressure_ledger.md`
+- `expanded_prompts/02_cognitive_jurisdiction_map.md`
+- `expanded_prompts/03_living_dossier_provenance_audit.md`
+- `expanded_prompts/04_reasoning_path_ledger.md`
+- `expanded_prompts/05_controlled_divergence_chamber.md`
+- `expanded_prompts/06_verification_receipt.md`
+- `expanded_prompts/07_synthesis_wall.md`
+- `expanded_prompts/08_invention_forge_transformation_log.md`
+- `expanded_prompts/09_sovereignty_receipt.md`
+- `package/01_MASTER_PLATFORM_INSTRUCTIONS.md`
+- `package/02_ROUTER_PROMPT.md`
+- `package/03_PROMPT_ASSETS_COMPACT.md`
+- `package/04_UNIFIED_RESPONSE_TEMPLATE.md`
+- `package/05_VALIDATION_PROMPTS.md`
