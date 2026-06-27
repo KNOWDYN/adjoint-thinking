@@ -6,7 +6,7 @@ This pack is for non-technical users who want a reusable AI thinking environment
 
 ## What this is
 
-This is a source-available prompt and knowledge configuration pack. It helps you create a reusable AI environment that can route work through Adjoint Thinking operations: first contact, jurisdiction, provenance, reasoning, divergence, verification, synthesis, transformation, and sovereignty.
+Based on [Adjoint Thinking](https://www.amazon.com/dp/B0H3DWP3SP), this source-available configuration pack helps you create a reusable AI environment that can route work through Adjoint Thinking operations: first contact, jurisdiction, provenance, reasoning, divergence, verification, synthesis, transformation, and sovereignty.
 
 The environment is designed to help you use AI without letting unchecked machine output carry your name.
 
