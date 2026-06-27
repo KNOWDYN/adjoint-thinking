@@ -1,0 +1,49 @@
+{
+  "site_title": "Adjoint Thinking Scenario Companion",
+  "version": "v1.0.0",
+  "description": "Build an AI thinking environment for your work category.",
+  "source_dir": "source/quartz-content-vault",
+  "output_dir": "docs",
+  "assets_dir": "docs/assets",
+  "nav": [
+    {
+      "label": "Start Here",
+      "url": "./"
+    },
+    {
+      "label": "Scenarios",
+      "url": "scenarios/scenarios/"
+    },
+    {
+      "label": "Install",
+      "url": "install/chatgpt-project-installation/"
+    },
+    {
+      "label": "Method",
+      "url": "operations/verification-receipt/"
+    },
+    {
+      "label": "Download",
+      "url": "package/download/"
+    },
+    {
+      "label": "License",
+      "url": "package/license/"
+    },
+    {
+      "label": "Security",
+      "url": "package/security/"
+    }
+  ],
+  "generated_indexes": [
+    {
+      "slug": "scenarios/scenarios",
+      "title": "Scenarios",
+      "description": "Choose the work category closest to your use case.",
+      "section": "Scenarios",
+      "source_collection": "scenarios"
+    }
+  ],
+  "base_url": "https://adjointthinking.com/scenarios/",
+  "release_date": "2026-06-27"
+}
