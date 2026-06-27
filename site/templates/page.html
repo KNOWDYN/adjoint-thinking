@@ -11,21 +11,18 @@
   <meta name="theme-color" content="#cf2e2e" />
   <link rel="stylesheet" href="{{ root_prefix }}assets/site.css" />
   <link rel="icon" href="{{ root_prefix }}assets/favicon.svg" type="image/svg+xml" />
-  <script id="theme-preload">(function(){var k="adjoint-theme-preference",m=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,c=localStorage.getItem(k)||"system",r=c==="dark"||c==="system"&&m?"dark":"light";document.documentElement.dataset.theme=r;document.documentElement.dataset.themeChoice=c;})();</script>
 </head>
 <body id="top" data-page="{{ page_slug }}">
-  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="topbar">
     <a class="brand" href="{{ root_prefix }}"><span class="brand-mark"></span><span>{{ site_title }}<br><small>Scenario Companion {{ version }}</small></span></a>
     <nav class="topnav" aria-label="Primary navigation">{{ primary_nav }}</nav>
-    <div class="topbar-actions"><div class="theme-switcher" role="group" aria-label="Theme preference"><button class="theme-option" type="button" data-theme-option="system" aria-pressed="true">System</button><button class="theme-option" type="button" data-theme-option="light" aria-pressed="false">Light</button><button class="theme-option" type="button" data-theme-option="dark" aria-pressed="false">Dark</button></div></div>
   </header>
   <div class="site-shell">
     <aside class="left-panel" aria-label="Scenario navigation">
       <div class="search-box"><label for="site-search">Search scenarios and method</label><input id="site-search" type="search" placeholder="Search..." autocomplete="off"><div id="search-results"></div></div>
       {{ left_panel }}
     </aside>
-    <main id="main-content" class="content" tabindex="-1">
+    <main class="content" tabindex="-1">
       {{ content }}
     </main>
     <aside class="right-panel" aria-label="Page graph and related notes">
