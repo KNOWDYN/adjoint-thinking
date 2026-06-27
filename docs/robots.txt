@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://adjointthinking.com/scenarios/sitemap.xml
