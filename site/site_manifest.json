@@ -45,5 +45,6 @@
     }
   ],
   "base_url": "https://adjointthinking.com/scenarios/",
-  "release_date": "2026-06-27"
+  "release_date": "2026-06-27",
+  "asset_version": "2026-06-27-commit5"
 }

@@ -9,7 +9,7 @@
   <meta property="og:description" content="{{ page_description }}" />
   <meta property="og:type" content="website" />
   <meta name="theme-color" content="#cf2e2e" />
-  <link rel="stylesheet" href="{{ root_prefix }}assets/site.css" />
+  <link rel="stylesheet" href="{{ root_prefix }}assets/site.css?v={{ asset_version }}" />
   <link rel="icon" href="{{ root_prefix }}assets/favicon.svg" type="image/svg+xml" />
 </head>
 <body id="top" data-page="{{ page_slug }}">
@@ -49,6 +49,6 @@
   </footer>
   <script>window.SITE_ROOT_PREFIX = "{{ root_prefix }}";
   window.SITE_INDEX_PATH = "{{ root_prefix }}assets/search-index.json";</script>
-  <script src="{{ root_prefix }}assets/site.js"></script>
+  <script src="{{ root_prefix }}assets/site.js?v={{ asset_version }}"></script>
 </body>
 </html>
