@@ -225,6 +225,7 @@ def build(output_dir: Path, clean: bool = False) -> None:
             "page_slug": html.escape(page.slug or "index", quote=True),
             "site_title": html.escape(manifest["site_title"]),
             "version": html.escape(manifest["version"]),
+            "asset_version": html.escape(str(manifest.get("asset_version", manifest["version"])), quote=True),
             "primary_nav": render_nav(manifest, page.slug),
             "left_panel": render_left_panel(pages, page.slug),
             "content": content,
