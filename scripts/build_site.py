@@ -222,9 +222,6 @@ def build(output_dir: Path, clean: bool = False) -> None:
             "og_title": html.escape(page.title, quote=True),
             "page_description": html.escape(page.description, quote=True),
             "root_prefix": root_prefix(page.slug),
-            "html_lang": html.escape(manifest.get("default_locale", "en"), quote=True),
-            "html_dir": "rtl" if manifest.get("default_locale") == "ar" else "ltr",
-            "translation_proxy": html.escape(manifest.get("translation_proxy", ""), quote=True),
             "page_slug": html.escape(page.slug or "index", quote=True),
             "site_title": html.escape(manifest["site_title"]),
             "version": html.escape(manifest["version"]),
@@ -242,10 +239,6 @@ def build(output_dir: Path, clean: bool = False) -> None:
             loc = base_url + (page.slug + "/" if page.slug else "")
             sitemap_urls.append(f"<url><loc>{html.escape(loc)}</loc>" + (f"<lastmod>{html.escape(lastmod)}</lastmod>" if lastmod else "") + "</url>")
     assets = output_dir / "assets"; assets.mkdir(exist_ok=True)
-    i18n_dir = ROOT / "site" / "i18n"
-    if i18n_dir.exists():
-        for locale_file in i18n_dir.glob("*.json"):
-            shutil.copyfile(locale_file, assets / f"i18n.{locale_file.stem}.json")
     (assets / "search-index.json").write_text(json.dumps(search, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if sitemap_urls:
         (output_dir / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(sitemap_urls) + "</urlset>\n", encoding="utf-8")

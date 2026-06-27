@@ -34,7 +34,3 @@
 - `source/quartz-content-vault/package/download.md`
 - `source/quartz-content-vault/package/license.md`
 - `source/quartz-content-vault/package/security.md`
-- `docs/assets/i18n.ar.json`
-- `site/i18n/ar.json`
-- `serverless/translate-proxy/README.md`
-- `serverless/translate-proxy/worker.js`
