@@ -45,11 +45,5 @@
     }
   ],
   "base_url": "https://adjointthinking.com/scenarios/",
-  "release_date": "2026-06-27",
-  "default_locale": "en",
-  "supported_locales": [
-    "en",
-    "ar"
-  ],
-  "translation_proxy": ""
+  "release_date": "2026-06-27"
 }

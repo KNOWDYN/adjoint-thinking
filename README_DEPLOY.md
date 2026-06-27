@@ -49,9 +49,3 @@ python3 scripts/build_site.py --output /tmp/adjoint-site-build --clean
 ## Maintenance rule
 
 When updating site structure, navigation, metadata, shared UI, or content, change the source files and rebuild. Treat `docs/**/index.html` and `docs/assets/search-index.json` as generated deployment output.
-
-## Localization and machine translation
-
-The site supports an English/Arabic locale switch in the shared frontend assets. The browser language is used only when the visitor has not selected a language preference. Arabic mode sets `lang="ar"`, `dir="rtl"`, localized UI chrome, and curated Arabic text replacements from `docs/assets/i18n.ar.json`.
-
-The optional machine translation button is disabled unless `translation_proxy` in `site/site_manifest.json` is set to a deployed serverless proxy URL. Keep provider API keys out of GitHub Pages; use `serverless/translate-proxy/worker.js` or an equivalent backend proxy and keep the visible machine-translation notice enabled.

@@ -1,8 +1,6 @@
 # Adjoint Thinking Environment Pack
 
-A browser-only configuration package for building an Adjoint Thinking environment in ChatGPT Projects, Claude Projects, or Gemini Gems.
-
-This pack is for non-technical users who want a reusable AI thinking environment without using code, APIs, automations, or developer tools.
+A browser-only configuration package for building an Adjoint Thinking environment in ChatGPT Projects, Claude Projects, or Gemini Gems. This pack is for non-technical users who want a reusable AI thinking environment without using code, APIs, automations, or developer tools.
 
 ## What this is
 
