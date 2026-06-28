@@ -226,6 +226,7 @@ def build(output_dir: Path, clean: bool = False) -> None:
             "site_title": html.escape(manifest["site_title"]),
             "version": html.escape(manifest["version"]),
             "asset_version": html.escape(str(manifest.get("asset_version", manifest["version"])), quote=True),
+            "translation_proxy": html.escape(str(manifest.get("translation_proxy", "")), quote=True),
             "primary_nav": render_nav(manifest, page.slug),
             "left_panel": render_left_panel(pages, page.slug),
             "content": content,
@@ -241,6 +242,9 @@ def build(output_dir: Path, clean: bool = False) -> None:
             sitemap_urls.append(f"<url><loc>{html.escape(loc)}</loc>" + (f"<lastmod>{html.escape(lastmod)}</lastmod>" if lastmod else "") + "</url>")
     assets = output_dir / "assets"; assets.mkdir(exist_ok=True)
     (assets / "search-index.json").write_text(json.dumps(search, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    i18n_source = ROOT / "site" / "i18n" / "ar.json"
+    if i18n_source.exists():
+        shutil.copyfile(i18n_source, assets / "i18n.ar.json")
     if sitemap_urls:
         (output_dir / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(sitemap_urls) + "</urlset>\n", encoding="utf-8")
 
